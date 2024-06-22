@@ -1,0 +1,136 @@
+* {
+    font-size: 18px;
+}
+html {
+    background-color: rgba(181, 255, 255, 0.329);
+}
+p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    margin-top:0;
+    margin-bottom: 0;
+    margin: 1rem;
+}
+
+.title-section {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#title-text {
+    font-size: 50px;
+    color: rgb(59, 59, 59);
+    text-align: center;
+    margin: 0;
+}
+
+#title-hr{
+    background-color: white;
+    height: 0.3rem;
+    margin: 9rem;
+    margin-bottom: 0.4rem;
+    margin-top: 0.1rem;
+}
+
+#img1 {
+    height: 12rem;
+    margin: 20px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    float: left;
+}
+
+.intro {
+    background-color: rgba(0, 0, 255, 0.11);
+}
+
+
+.views{
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#rhetorical {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.arg-hr {
+    background-color: rgba(90, 154, 236, 0.5);
+    height: 0.3rem;
+    border: 0;
+    margin:0;
+    margin-bottom: 10px
+}
+
+
+
+h2 {
+    margin: 0;
+    padding: 10px;
+    font-size: 25px;
+}
+
+#img2 {
+    height: 10rem;
+    float: right;
+    margin-right: 1.5rem;
+    margin-left: 1rem;
+}
+
+.panel {
+    flex: 0.15;
+    background-color: rgba(126, 203, 226, 0.582);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+.link-container {
+    flex: 0.03;
+    font-family:'Courier New', Courier, monospace;
+    margin: 10px;
+    background-color: rgba(90, 138, 209, 0.432);
+}
+
+.panel-link {
+    font-size: 20px;
+}
+
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-basis: 2rem;
+}
+
+.section {
+    margin: 0.4rem;
+    padding: 1.5rem;
+}
+
+
+.neurological {
+    background-color: rgba(9, 34, 146, 0.897);
+}
+
+.causal {
+    background-color: rgba(32, 37, 36, 0.171);
+}
+
+#img3 {
+    height: 9rem;
+    float: left;
+    margin-left: 1.5rem;
+    margin-right: 1rem;
+}
+
+@media(max-width:500px) {
+    .panel {
+        background-color: brown;
+    }
+}
