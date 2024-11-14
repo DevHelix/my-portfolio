@@ -1,110 +1,250 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Components</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     
+
 </head>
-<body>
-    <div class="main" style="display:flex;">
-            
-        <div class="content-container">
-            <div class="title-section">
-                <div id="title-container">
-                    <h1 id="title-text">My Quarrel With Free Will</h1>
+    <body>
+        <header data-bs-theme="dark">
+            <div class="text-bg-dark collapse" id="navbarHeader" style>
+            <div class="container">
+                <div class="row">
+                <div class="col-sm-8 col-md-7 py-4">
+                    <h4>About</h4>
+                    <p class="text-body-secondary">Here, you can find all my projects including, machine learning, object detection, game development and more. I also have interests in philosophy and theology.</p>
+                    </div>
+                <div class="col-sm-4 offset-md-1 py-4">
+                    <h4>Contact</h4>
+                    <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">Email me: vinceanhlu@gmail.com</a></li>
+                    </ul>
                 </div>
-                <div id="title-hr"></div>
+                </div>
             </div>
-
-            <div class="intro section">
-                <img src="./imgs/free will.jpg" id="img1">
-
-                <p class="text"> <b>Free will</b> is defined as the capability to take actions 
-                    independent of external forces, completely at an individual’s discretion.
-                    Alternatively, free will can be summed up as the ability to do otherwise.
-                    It is intuitive for people to feel like they have a choice in their behaviors,
-                    but factors in the universe say otherwise. Recently, findings in <span>neuroscience </span>
-                    and <span>psychology</span> have raised questions about free will, 
-                    leading to the revitalization of an ancient question: 
-                    <span>Do humans possess free will?</span> There are three distinctive 
-                    views on free will: <span class="views">Determinism</span>,
-                    <span class="views">Libertarian Free Will</span>,
-                    and <span class="views">Compatibilism</span>.
-                    My personal position on Free Will is Determinism. 
-                    It's commonly misunderstood that determinism claims 
-                    we cannot make choices. This is not the case, rather it claims that 
-                    these choices are causal, like anything else in the universe. 
-                    Determinism asks the question: <span id="rhetorical">Does free will really exist if 
-                    we can only do what we want, but not choose what we want? </span> 
-                    In this article, I will explore the arguments against free will, 
-                    supported by the nature of causality and the presence of subconscious 
-                    decisions that render the concept of free will refutable. 
-                    Furthermore, the inability to alter our desires, which is the 
-                    basis for our choices, builds upon the illusion of free will. 
-                    The stated arguments will serve as the foundation for discerning 
-                    whether free will exists or not. 
-                </p>
             </div>
-            <div class="neurological section">
-                
-                <h2 style="color:white">Argument From Neuroscience</h2>
-                <hr class="arg-hr">
-                <img src="./imgs/neuro.jpg" id="img2">
-                <p class="text" style="color:white;"> 
-                    Consciously made decisions are always preceded by 
-                    subconscious neural activations that occur before the decision. 
-                    Benjamin Libet was a pioneer in neuroscience during the 1970s. 
-                    He famously ran an experiment that contested the reality of free 
-                    will. In his research, he found that “the RP culminating in the 
-                    execution of the movement starts in the prefrontal motor areas 
-                    long before the time when the subject seems to have made the 
-                    decision: participants became aware of their intention to take 
-                    action about 350 milliseconds after the onset of such potential” 
-                    (Lavazza 14). RP stands for readiness potential, which is when 
-                    our brains send neurological signals in preparation for an action. 
-                    Libet’s experiment demonstrates that our brains are not only 
-                    preparing for decisions before we even think of them but are 
-                    also deciding before we do. If our decisions are enacted through 
-                    something we cannot control (our subconsciousness), we therefore 
-                    do not have free will. 
-                </p>
+            <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                <img src="objects\journal-code.svg" style="fill: white;" width="20" height="20" fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+                <strong>Vincent Lu</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="true" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
             </div>
-            <div class="causal section">
-                <h2>Argument From Causality</h2>
-                <hr class="arg-hr">
-                <img src="./imgs/causality.jpg" id="img3">
-                <p class="text">
-                    The universe is deterministic in nearly every aspect. 
-                    In Newtonian physics, its first fundamental law is that: 
-                    “...every object will remain at rest or in uniform motion in a 
-                    straight line unless compelled to change its state by the action 
-                    of an external force” (Nasa.gov 4). Free will is the capacity to 
-                    act independent of an external force, for an individual to 
-                    practice free will, they would need to break Newton’s first 
-                    law of physics, acting with self-direction. But nothing can 
-                    act with self-direction; for example, tennis ball does not 
-                    decide where it bounces when it is hit. So how are humans any 
-                    different? Because we are beings of consciousness? Science 
-                    cannot directly prove the origins of consciousness, but with 
-                    general reason, one can assume that our behaviors and beliefs 
-                    stem from our brain. This can be shown with the change of behaviors 
-                    in Phineas Gage, which turned the well-mannered, hard-working, 
-                    religious railroad worker into an incoherent drunkard when his 
-                    frontal lobe was pierced by a railway beam (Guy-Evans 3). If 
-                    it is true that our behaviors stem from our brain and its 
-                    development, then it is also true that the neurons that lead 
-                    to a functioning brain directly control our behavior. These 
-                    neurons are comprised of atomic and subatomic particles, which 
-                    obey Newtonian laws, meaning that our behaviors are due to 
-                    external forces outside of our control. 
-                </p>
             </div>
-            <div class="chaos section">
-                <h2>Argument From Chaos</h2>
-                
+        </header>
+        <div class="px-4 my-5 text-center">
+            <h1 class="display-3 fw-bold text-body-emphasis">Project: Stylable</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Stylable is a smart outfit generator which uses machine learning, object detection, webscraping, and a custom outfit algorithm to give users ideas for their outfits.</p>
+                <p class="mb-4">Core Libraries - YOLO, Selenium, CustomTKinter, PIL, OpenCV</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                </div>
             </div>
         </div>
-    </div>
-    
+        <div class="album py-5 bg-body-tertiary">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div class="ratio ratio-4x3">
+                                <iframe src="https://giphy.com/embed/tVgSBhfeu5JYe1dZUC" 
+                                        style="border:0;" 
+                                        allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">Stylable begins loading the Selenium webdriver in the background. This is to expedite the webscraping process. </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div class="ratio ratio-4x3">
+                                <iframe src="https://giphy.com/embed/3R7ioeywbabBHGpQ7m" 
+                                        style="border:0;" 
+                                        allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">The user uploads a pile of clothes, selects whether they want to see masculine or feminine outfits, and then submits. Stylable then detects which outfits are present in the image, classifying them and then inputting the present outfits into our custom algorithm. The algorithm submits all possible outfits into the Selenium webdriver, to which Stylable downloads the best fit images. Those downloaded images are then shown to the user.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div class="ratio ratio-4x3">
+                                <img src="objects\training_data\confusion_matrix_normalized.png">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">This is a normalized confusion matrix for all of the classifications Stylable detects.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div class="ratio ratio-4x3">
+                                <img src="objects\training_data\train_batch0.jpg">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">This is a training batch after 100 epochs of training</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div class="ratio ratio-4x3">
+                                <img src="objects\training_data\val_batch0_labels.jpg">
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">This is a labeled batch after 100 epochs of training</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="px-4 my-5 text-center">
+            <h1 class="display-3 fw-bold text-body-emphasis">Project: Object Detection Screen-Swapper</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                </div>
+            </div>
+        </div>
+        <div class="px-4 my-5 text-center">
+            <h1 class="display-3 fw-bold text-body-emphasis">Project: Voice Assistant</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                </div>
+            </div>
+        </div>
+        
+        <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            
+            <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <img src="objects\training_data\F1_curve.png" class="d-block ratio ratio-20x3" alt="Slide 1" >
+                <div class="container">
+                <div class="carousel-caption text-start">
+                    <h1>Explore Your Creativity</h1>
+                    <p class="opacity-75">Join the community of developers creating immersive experiences on ROBLOX.</p>
+                    
+                </div>
+                </div>
+            </div>
+            
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <img src="" class="d-block w-100" alt="Slide 2">
+                <div class="container">
+                <div class="carousel-caption">
+                    <h1>Learn from Experts</h1>
+                    <p>Access resources and tutorials to enhance your game development skills.</p>
+                    
+                </div>
+                </div>
+            </div>
+            
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+                <img src="" class="d-block w-100" alt="Slide 3">
+                <div class="container">
+                <div class="carousel-caption text-end">
+                    <h1>Showcase Your Creations</h1>
+                    <p>Share your games and connect with other developers worldwide.</p>
+                    
+                </div>
+                </div>
+            </div>
+            </div>
 
-</body>
+            <!-- Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="px-4 my-5 text-center">
+            <h1 class="display-3 fw-bold text-body-emphasis">Philosophy</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                </div>
+            </div>
+        </div>
+        <div class="album py-5 bg-body-tertiary">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div class="ratio ratio-4x3">
+                                <iframe src="https://youtube.com/embed/rIpJRQRY_Ks" 
+                                        style="border:0;" 
+                                        allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <div class="ratio ratio-4x3">
+                                <iframe src="https://youtube.com/embed/fRlBCmSG8XA" 
+                                        style="border:0;" 
+                                        allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+
+                    
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+  
 </html>
